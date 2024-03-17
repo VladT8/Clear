@@ -1,0 +1,17 @@
+@import "fonts.scss";
+@import "variables.scss";
+@import "mixins.scss";
+@import "heared.scss";
+@import "buttons.scss";
+
+body {
+  font-family: Roboto, sans-serif;
+}
+
+.container {
+  max-width: 1170px;
+  margin: 0 auto;
+  @media (max-width: 1200px) {
+    padding: 0 15px;
+  }
+}
