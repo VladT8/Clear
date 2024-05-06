@@ -1,958 +1,310 @@
 <!DOCTYPE html>
 <html lang="zxx">
-<head>
-   <meta charset="UTF-8">
-   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>Mogo</title>
-   <link rel="stylesheet" href="css/reset.css">
-   <link rel="stylesheet" href="css/style.min.css">
-   <link rel="stylesheet" href="./css/slick.css">
-   <link rel="preconnect" href="https://fonts.googleapis.com">
-</head>
-<body>
-   <section class="promo">
-      <div class="container">
-         <div class="header">
-            <div class="header__logo">
-               <a href="#"><img src="./icons/logo.svg" alt="logo"></a>
-            </div>
-            <input id="menu-toggle" type="checkbox" />
-            <label class='menu-button-container' for="menu-toggle">
-               <div class='menu-button'></div>
-            </label>
-            <nav class="menu">
-               <ul class="menu__list">
-                  <li class="menu__list-item">
-                     <a class="menu__list-link" href="#tabs">About</a>
-                  </li>
-                  <li class="menu__list-item">
-                     <a class="menu__list-link" href="#">service</a>
-                  </li>
-                  <li class="menu__list-item">
-                     <a class="menu__list-link" href="#">work</a>
-                  </li>
-                  <li class="menu__list-item">
-                     <a class="menu__list-link" href="#">blog</a>
-                  </li>
-                  <li class="menu__list-item">
-                     <a class="menu__list-link" href="#">Contact</a>
-                  </li>
-               </ul>
-               <div class="header__icons">
-                  <div class="header__icon">
-                     <a href="#">
-                        <img src="./icons/cart.svg" alt="cart">
-                     </a>
-                  </div>
-                  <div class="header__icon">
-                     <a href="#">
-                        <img src="./icons/search.svg" alt="search">
-                     </a>
-                  </div>
-               </div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Title</title>
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/style.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <div class="header__container">
+          <a class="header__logo logo" href="#">
+            <img src="./icons/logo.svg" alt="logo" />
+          </a>
+          <div class="header__menu menu">
+            <nav class="menu__body">
+              <ul class="menu__list">
+                <li class="menu_item">
+                  <a href="" class="menu__link">About</a>
+                </li>
+                <li class="menu_item">
+                  <a href="" class="menu__link">Service</a>
+                </li>
+                <li class="menu_item">
+                  <a href="" class="menu__link">Work</a>
+                </li>
+                <li class="menu_item">
+                  <a href="" class="menu__link">Contact</a>
+                </li>
+                <li>
+                  <a href="" class="menu__link">More</a>
+                  <span class="menu__arrow"></span>
+                  <ul class="menu__sub-list">
+                    <li class="menu_item">
+                      <a href="" class="menu__sub-link">More_1</a>
+                    </li>
+                    <li class="menu_item">
+                      <a href="" class="menu__sub-link">More_2</a>
+                    </li>
+                    <li class="menu_item">
+                      <a href="" class="menu__sub-link">More_3</a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="menu_item">
+                  <a href="" class="menu__link">Contact</a>
+                </li>
+              </ul>
             </nav>
-         </div>
-         <div class="promo__subtitle">
-            <h3>Creative Template</h3>
-         </div>
-         <div class="promo__title">
-            <h1>Welcome
-               to MoGo</h1>
-         </div>
-         <hr class="promo__divider">
-         <button class="promo__btn">learn more</button>
-         <div class="promo__wrapper">
-            <div class="promo__slider">
-               <h4>01 <span>intro</span></h4>
+            <div class="hamburger">
+              <span></span>
+              <span></span>
+              <span></span>
             </div>
-            <div class="promo__slider">
-               <h4>02 <span>work</span></h4>
-            </div>
-            <div class="promo__slider">
-               <h4>03 <span>about</span></h4>
-            </div>
-            <div class="promo__slider">
-               <h4>04 <span>contacts</span></h4>
-            </div>
-         </div>
-      </div>
-   </section>
-   <section class="about">
-      <div class="container">
-         <div class="subtitle">
-            <h3 class="subtitle-text">What we do</h3>
-         </div>
-         <div class="title">
-            <h2 class="title-text">story about us</h2>
-         </div>
-         <hr class="section-hr">
-         <div class="section-descr">
-            <h3 class="section-descr-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eu facilisis sed venenatis lacus. Eget sit ridiculus facilisi amet. Dis sapien ipsum enim dui fermentum viverra dolor sit. Aliquet congue sit fermentum risus feugiat.</h3>
-         </div>
-         <div class="about__wrapper">
-            <div class="about__item item-about">
-               <div class="item-about__subcart">
-                  <div class="item-about__inner">
-                     <div class="item-about__icon">
-                        <img src="./icons/about_icon.svg" alt="">
-                     </div>
-                     <div class="item-about__descr">
-                        <p>Super team</p>
-                     </div>
-                  </div>
-               </div>
-            </div>
-            <div class="about__item item-about">
-               <div class="item-about__subcart">
-                  <div class="item-about__inner">
-                     <div class="item-about__icon">
-                        <img src="./icons/about_icon.svg" alt="">
-                     </div>
-                     <div class="item-about__descr">
-                        <p>Super team</p>
-                     </div>
-                  </div>
-               </div>
-            </div>
-            <div class="about__item item-about">
-               <div class="item-about__subcart">
-                  <div class="item-about__inner">
-                     <div class="item-about__icon">
-                        <img src="./icons/about_icon.svg" alt="">
-                     </div>
-                     <div class="item-about__descr">
-                        <p>Super team</p>
-                     </div>
-                  </div>
-               </div>
-            </div>
-         </div>
-      </div>
-   </section>
-   <section class="futures">
-      <div class="container">
-         <div class="futures__wrapper">
-            <div class="futures__item">
-               <h4 class="futures__number">42</h4>
-               <p class="futures__descr">Lorem ipsum</p>
-            </div>
-            <div class="futures__item">
-               <h4 class="futures__number">123</h4>
-               <p class="futures__descr">Lorem ipsum</p>
-            </div>
-            <div class="futures__item">
-               <h4 class="futures__number">15</h4>
-               <p class="futures__descr">Lorem ipsum</p>
-            </div>
-            <div class="futures__item">
-               <h4 class="futures__number">99</h4>
-               <p class="futures__descr">Lorem ipsum</p>
-            </div>
-            <div class="futures__item">
-               <h4 class="futures__number">24</h4>
-               <p class="futures__descr">Lorem ipsum</p>
-            </div>
-         </div>
-      </div>
-   </section>
-   <section class="amazing">
-      <div class="container">
-         <div class="subtitle">
-            <h3 class="subtitle-text">We worck with</h3>
-         </div>
-         <div class="title">
-            <h2 class="title-text">amazing services</h2>
-         </div>
-         <hr class="section-hr">
-         <div class="amazing__wrapper">
-            <div class="amazing__block block-amazing">
-               <div class="block-amazing__icon">
-                  <img src="./icons/amazing_1.svg" alt="">
-               </div>
-               <div class="block-amazing__info">
-                  <div class="block-amazing__title">
-                     <h4>photography</h4>
-                  </div>
-                  <div class="block-amazing__descr">
-                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                  </div>
-               </div>
-            </div>
-            <div class="amazing__block block-amazing">
-               <div class="block-amazing__icon">
-                  <img src="./icons/amazing_2.svg" alt="">
-               </div>
-               <div class="block-amazing__info">
-                  <div class="block-amazing__title">
-                     <h4>web design</h4>
-                  </div>
-                  <div class="block-amazing__descr">
-                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                  </div>
-               </div>
-            </div>
-            <div class="amazing__block block-amazing">
-               <div class="block-amazing__icon">
-                  <img src="./icons/amazing_3.svg" alt="">
-               </div>
-               <div class="block-amazing__info">
-                  <div class="block-amazing__title">
-                     <h4>creativity</h4>
-                  </div>
-                  <div class="block-amazing__descr">
-                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                  </div>
-               </div>
-            </div>
-            <div class="amazing__block block-amazing">
-               <div class="block-amazing__icon">
-                  <img src="./icons/amazing_4.svg" alt="">
-               </div>
-               <div class="block-amazing__info">
-                  <div class="block-amazing__title">
-                     <h4>seo</h4>
-                  </div>
-                  <div class="block-amazing__descr">
-                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                  </div>
-               </div>
-            </div>
-            <div class="amazing__block block-amazing">
-               <div class="block-amazing__icon">
-                  <img src="./icons/amazing_5.svg" alt="">
-               </div>
-               <div class="block-amazing__info">
-                  <div class="block-amazing__title">
-                     <h4>css/html</h4>
-                  </div>
-                  <div class="block-amazing__descr">
-                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                  </div>
-               </div>
-            </div>
-            <div class="amazing__block block-amazing">
-               <div class="block-amazing__icon">
-                  <img src="./icons/amazing_6.svg" alt="">
-               </div>
-               <div class="block-amazing__info">
-                  <div class="block-amazing__title">
-                     <h4>digital</h4>
-                  </div>
-                  <div class="block-amazing__descr">
-                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                  </div>
-               </div>
-            </div>
-         </div>
-      </div>
-   </section>
-   <section class="all">
-      <div class="container">
-         <div class="subtitle">
-            <h3 class="subtitle-text">For all  devices</h3>
-         </div>
-         <div class="title">
-            <h2 class="title-text">unique design</h2>
-         </div>
-         <hr class="section-hr">
-         <div class="all__devices">
-            <div class="all__tablet">
-               <img src="./img/all_tablet.png" alt="">
-            </div>
-            <div class="all__phone">
-               <img src="./img/all_tel.png" alt="">
-            </div>
-         </div>
-      </div>
-   </section>
-   <section class="service">
-      <div class="container">
-         <div class="subtitle">
-            <h3 class="subtitle-text">Service</h3>
-         </div>
-         <div class="title">
-            <h2 class="title-text">what we do</h2>
-         </div>
-         <hr class="section-hr">
-         <div class="section-descr">
-            <h3 class="section-descr-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eu facilisis sed venenatis lacus. Eget sit ridiculus facilisi amet. Dis sapien ipsum enim dui fermentum viverra dolor sit. Aliquet congue sit fermentum risus feugiat.</h3>
-         </div>
-         <div class="service__wrapper">
-            <div class="service__photo">
-               <img src="./img/service_main.png" alt="man">
-            </div>
-            <div class="service__menu">
-               <div class="service__menu-item item-service">
-                  <div class="item-service__icon">
-                     <img src="./icons/service_1.svg" alt="">
-                  </div>
-                  <div class="item-service__title">
-                     <h5>photography</h5>
-                  </div>
-                  <div class="item-service__icon">
-                     <img src="./icons/service_arrow.svg" alt="">
-                  </div>
-               </div>
-               <div class="service__menu-item item-service">
-                  <div class="item-service__icon">
-                     <img src="./icons/service_2.svg" alt="">
-                  </div>
-                  <div class="item-service__title">
-                     <h5>creativity</h5>
-                  </div>
-                  <div class="item-service__icon">
-                     <img src="./icons/service_arrow.svg" alt="">
-                  </div>
-               </div>
-               <div class="service__menu-item item-service">
-                  <div class="item-service__icon">
-                     <img src="./icons/service_3.svg" alt="">
-                  </div>
-                  <div class="item-service__title">
-                     <h5>web design</h5>
-                  </div>
-                  <div class="item-service__icon">
-                     <img src="./icons/service_arrow.svg" alt="">
-                  </div>
-               </div>
-            </div>
-         </div>
-      </div>
-   </section>
-   <section class="review">
-      <div class="container">
-         <div class="review__wrapper">
-            <div class="review__arrow">
-               <img src="./icons/reciew_arrow_left.svg" alt="">
-            </div>
-            <div class="review__content">
-               <div class="review__image">
-                  <img src="./icons/review.svg" alt="quote">
-               </div>
-               <div class="review__info">
-                  <div class="review__text">
-                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Neque nec diam platea ullamcorper feugiat amet. Id aliquet vehicula feugiat arcu arcu nulla ornare. Sed amet venenatis, massa sit.</p>
-                  </div>
-                  <div class="review__name">
-                     <p>Jon Doe</p>
-                  </div>
-               </div>
-            </div>
-            <div class="review__arrow">
-               <img src="./icons/reciew_arrow_right.svg" alt="">
-            </div>
-         </div>
-      </div>
-   </section>
-   <section class="team">
-      <div class="container">
-         <div class="subtitle">
-            <h3 class="subtitle-text">Who we are</h3>
-         </div>
-         <div class="title">
-            <h2 class="title-text">meet our team</h2>
-         </div>
-         <hr class="section-hr">
-         <div class="section-descr">
-            <h3 class="section-descr-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eu facilisis sed venenatis lacus. Eget sit ridiculus facilisi amet. Dis sapien ipsum enim dui fermentum viverra dolor sit. Aliquet congue sit fermentum risus feugiat.</h3>
-         </div>
-         <div class="team__wrapper">
-            <div class="team__item worker">
-               <div class="worker__photo">
-                  <img src="./img/team_1.png" alt="team">
-                  <div class="worker__subcart">
-                     <div class="worker__inner">
-                        <li class="worker__icons">
-                           <a href="facebook.com" target="
-                           " class="worker__icon">
-                              <img src="./icons/worker_fb.svg" alt="">
-                           </a>
-                           <a href="twitter.com" target="
-                           "  class="worker__icon">
-                              <img src="./icons/worker_twitter.svg" alt="">
-                           </a>
-                           <a href="twitter.com" target="
-                           "  class="worker__icon">
-                              <img src="./icons/worker_pinterest.svg" alt="">
-                           </a>
-                           <a href="instagram.com" target="
-                           "  class="worker__icon">
-                              <img src="./icons/worker_instagram.svg" alt="">
-                           </a>
-                        </li>
-                     </div>
-                  </div>
-               </div>
-               <div class="worker__name">
-                  <h4>Kadin Dias</h4>
-               </div>
-               <div class="worker__title">
-                  <h5>founder, ceo</h5>
-               </div>
-            </div>
-            <div class="team__item worker">
-               <div class="worker__photo">
-                  <img src="./img/team_2.png" alt="team">
-                  <div class="worker__subcart">
-                     <div class="worker__inner">
-                        <li class="worker__icons">
-                           <a href="facebook.com" target="
-                           " class="worker__icon">
-                              <img src="./icons/worker_fb.svg" alt="">
-                           </a>
-                           <a href="twitter.com" target="
-                           "  class="worker__icon">
-                              <img src="./icons/worker_twitter.svg" alt="">
-                           </a>
-                           <a href="twitter.com" target="
-                           "  class="worker__icon">
-                              <img src="./icons/worker_pinterest.svg" alt="">
-                           </a>
-                           <a href="instagram.com" target="
-                           "  class="worker__icon">
-                              <img src="./icons/worker_instagram.svg" alt="">
-                           </a>
-                        </li>
-                     </div>
-                  </div>
-               </div>
-               <div class="worker__name">
-                  <h4>Zain Calzoni</h4>
-               </div>
-               <div class="worker__title">
-                  <h5>designer</h5>
-               </div>
-            </div>
-            <div class="team__item worker">
-               <div class="worker__photo">
-                  <img src="./img/team_3.png" alt="team">
-                  <div class="worker__subcart">
-                     <div class="worker__inner">
-                        <li class="worker__icons">
-                           <a href="facebook.com" target="
-                           " class="worker__icon">
-                              <img src="./icons/worker_fb.svg" alt="">
-                           </a>
-                           <a href="twitter.com" target="
-                           "  class="worker__icon">
-                              <img src="./icons/worker_twitter.svg" alt="">
-                           </a>
-                           <a href="twitter.com" target="
-                           "  class="worker__icon">
-                              <img src="./icons/worker_pinterest.svg" alt="">
-                           </a>
-                           <a href="instagram.com" target="
-                           "  class="worker__icon">
-                              <img src="./icons/worker_instagram.svg" alt="">
-                           </a>
-                        </li>
-                     </div>
-                  </div>
-               </div>
-               <div class="worker__name">
-                  <h4>Charlie George</h4>
-               </div>
-               <div class="worker__title">
-                  <h5>photographer</h5>
-               </div>
-            </div>
-         </div>
-      </div>
-   </section>
-   <section class="partners">
-      <div class="container">
-         <div class="partners__wrapper">
-            <a class="partners__link" href="#">
-               <img src="./icons/Partner1.svg" alt="site">
-            </a>
-            <a class="partners__link" href="#">
-               <img src="./icons/Partner2.svg" alt="site">
-            </a>
-            <a class="partners__link" href="#">
-               <img src="./icons/Partner3.svg" alt="site">
-            </a>
-            <a class="partners__link" href="#">
-               <img src="./icons/Partner4.svg" alt="site">
-            </a>
-            <a class="partners__link" href="#">
-               <img src="./icons/Partner5.svg" alt="site">
-            </a>
-            <a class="partners__link" href="#">
-               <img src="./icons/Partner6.svg" alt="site">
-            </a>
-         </div>
-      </div>
-   </section>
-   <section class="work">
-      <div class="container">
-         <div class="subtitle">
-            <h3 class="subtitle-text">What we do</h3>
-         </div>
-         <div class="title">
-            <h2 class="title-text">some of our work</h2>
-         </div>
-         <hr class="section-hr">
-         <div class="section-descr">
-            <h3 class="section-descr-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eu facilisis sed venenatis lacus. Eget sit ridiculus facilisi amet. Dis sapien ipsum enim dui fermentum viverra dolor sit. Aliquet congue sit fermentum risus feugiat.</h3>
-         </div>
-      </div>
-      <div class="work__galery">
-         <div class="work__galery-half">
-            <div class="work__galery-column">
-               <div class="work__item w-item w-item_1">
-                  <div class="w-item__inner w-inner">
-                     <div class="w-inner__icon">
-                        <img src="./icons/work.svg" alt="">
-                     </div>
-                     <div class="w-inner__title">
-                        <p>creatively design</p>
-                     </div>
-                     <div class="w-inner__descr">
-                        <p>Super team</p>
-                     </div>
-                  </div>
-               </div>
-               <div class="work__item w-item w-item_2">
-                  <div class="w-item__inner w-inner">
-                     <div class="w-inner__icon">
-                        <img src="./icons/work.svg" alt="">
-                     </div>
-                     <div class="w-inner__title">
-                        <p>creatively design</p>
-                     </div>
-                     <div class="w-inner__descr">
-                        <p>Super team</p>
-                     </div>
-                  </div>
-               </div>
-            </div>
-            <div class="work__galery-column">
-               <div class="work__item w-item w-item_3">
-                  <div class="w-item__inner w-inner">
-                     <div class="w-inner__icon">
-                        <img src="./icons/work.svg" alt="">
-                     </div>
-                     <div class="w-inner__title">
-                        <p>creatively design</p>
-                     </div>
-                     <div class="w-inner__descr">
-                        <p>Super team</p>
-                     </div>
-                  </div>
-               </div>
-               <div class="work__item w-item w-item_5">
-                  <div class="w-item__inner w-inner">
-                     <div class="w-inner__icon">
-                        <img src="./icons/work.svg" alt="">
-                     </div>
-                     <div class="w-inner__title">
-                        <p>creatively design</p>
-                     </div>
-                     <div class="w-inner__descr">
-                        <p>Super team</p>
-                     </div>
-                  </div>
-               </div>
-            </div>
-         </div>
-         <div class="work__galery-half">
-            <div class="work__galery-column work__galery-column_big">
-               <div class="work__item w-item w-item_4">
-                  <div class="w-item__inner w-inner">
-                     <div class="w-inner__icon">
-                        <img src="./icons/work.svg" alt="">
-                     </div>
-                     <div class="w-inner__title">
-                        <p>creatively design</p>
-                     </div>
-                     <div class="w-inner__descr">
-                        <p>Super team</p>
-                     </div>
-                  </div>
-               </div>
-            </div>
-            <div class="work__galery-column">
-               <div class="work__item w-item w-item_6">
-                  <div class="w-item__inner w-inner">
-                     <div class="w-inner__icon">
-                        <img src="./icons/work.svg" alt="">
-                     </div>
-                     <div class="w-inner__title">
-                        <p>creatively design</p>
-                     </div>
-                     <div class="w-inner__descr">
-                        <p>Super team</p>
-                     </div>
-                  </div>
-               </div>
-               <div class="work__item w-item w-item_7">
-                  <div class="w-item__inner w-inner">
-                     <div class="w-inner__icon">
-                        <img src="./icons/work.svg" alt="">
-                     </div>
-                     <div class="w-inner__title">
-                        <p>creatively design</p>
-                     </div>
-                     <div class="w-inner__descr">
-                        <p>Super team</p>
-                     </div>
-                  </div>
-               </div>
-            </div>
-         </div>
-      </div>
-      <div class="work__galery-mobile">
-
-      </div>
-   </section>
-   <section class="clients">
-      <div class="container">
-         <div class="subtitle">
-            <h3 class="subtitle-text">Happy Clients</h3>
-         </div>
-         <div class="title">
-            <h2 class="title-text">what people say</h2>
-         </div>
-         <hr class="section-hr">
-         <div class="clients__wrapper">
-            <div class="clients__client client">
-               <div class="client__photo">
-                  <img src="./img/client_ava_1.png" alt="photo">
-               </div>
-               <div class="client__info">
-                  <div class="client__name">
-                     <h4>Phillip Culhane</h4>
-                  </div>
-                  <div class="client__job">
-                     <h5>photographer</h5>
-                  </div>
-                  <hr class="client__hr">
-                  <div class="client__text">
-                     <h5>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis proin varius vitae leo eget tincidunt duis amet. Et amet dis vel imperdiet volutpat mauris est leo cursus.</h5>
-                  </div>
-               </div>
-            </div>
-            <div class="clients__client client">
-               <div class="client__photo">
-                  <img src="./img/client_ava_2.png" alt="photo">
-               </div>
-               <div class="client__info">
-                  <div class="client__name">
-                     <h4>Paityn Press</h4>
-                  </div>
-                  <div class="client__job">
-                     <h5>photographer</h5>
-                  </div>
-                  <hr class="client__hr">
-                  <div class="client__text">
-                     <h5>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis proin varius vitae leo eget tincidunt duis amet. Et amet dis vel imperdiet volutpat mauris est leo cursus.</h5>
-                  </div>
-               </div>
-            </div>
-            <div class="clients__client client">
-               <div class="client__photo">
-                  <img src="./img/client_ava_3.png" alt="photo">
-               </div>
-               <div class="client__info">
-                  <div class="client__name">
-                     <h4>Dulce Gouse</h4>
-                  </div>
-                  <div class="client__job">
-                     <h5>photographer</h5>
-                  </div>
-                  <hr class="client__hr">
-                  <div class="client__text">
-                     <h5>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis proin varius vitae leo eget tincidunt duis amet. Et amet dis vel imperdiet volutpat mauris est leo cursus.</h5>
-                  </div>
-               </div>
-            </div>
-            <div class="clients__client client">
-               <div class="client__photo">
-                  <img src="./img/client_ava_4.png" alt="photo">
-               </div>
-               <div class="client__info">
-                  <div class="client__name">
-                     <h4>Zaire Schleifer</h4>
-                  </div>
-                  <div class="client__job">
-                     <h5>photographer</h5>
-                  </div>
-                  <hr class="client__hr">
-                  <div class="client__text">
-                     <h5>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis proin varius vitae leo eget tincidunt duis amet. Et amet dis vel imperdiet volutpat mauris est leo cursus.</h5>
-                  </div>
-               </div>
-            </div>
-         </div>
-      </div>
-   </section>
-   <section class="stories">
-      <div class="container">
-         <div class="subtitle">
-            <h3 class="subtitle-text">Happy Clients</h3>
-         </div>
-         <div class="title">
-            <h2 class="title-text">what people say</h2>
-         </div>
-         <hr class="section-hr">
-         <div class="stories__wrapper">
-            <div class="stories__item cart-story">
-               <div class="cart-story__photo">
-                  <img src="./img/story_1.png" alt="photo">
-                  <div class="cart-story__date">
-                     <h5>15</h5>
-                     <h6>jan</h6>
-                  </div>
-               </div>
-               <div class="cart-story__title">
-                  <h4>Lorem ipsum dolor sit amet</h4>
-               </div>
-               <div class="cart-story__descr">
-                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis proin varius vitae leo eget tincidunt duis amet. Et amet dis vel imperdiet volutpat mauris est leo cursus.</p>
-               </div>
-               <div class="cart-story__footer">
-                  <div class="cart-story__info info-story">
-                     <div class="info-story__icon">
-                        <img src="./icons/stories_watch.svg" alt="">
-                     </div>
-                     <div class="info-story__number">
-                        <p>542</p>
-                     </div>
-                  </div>
-                  <div class="cart-story__info info-story">
-                     <div class="info-story__icon">
-                        <img src="./icons/stories_comments.svg" alt="">
-                     </div>
-                     <div class="info-story__number">
-                        <p>17</p>
-                     </div>
-                  </div>
-               </div>
-            </div>
-            <div class="stories__item cart-story">
-               <div class="cart-story__photo">
-                  <img src="./img/story_1.png" alt="photo">
-                  <div class="cart-story__date">
-                     <h5>15</h5>
-                     <h6>jan</h6>
-                  </div>
-               </div>
-               <div class="cart-story__title">
-                  <h4>Lorem ipsum dolor sit amet</h4>
-               </div>
-               <div class="cart-story__descr">
-                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis proin varius vitae leo eget tincidunt duis amet. Et amet dis vel imperdiet volutpat mauris est leo cursus.</p>
-               </div>
-               <div class="cart-story__footer">
-                  <div class="cart-story__info info-story">
-                     <div class="info-story__icon">
-                        <img src="./icons/stories_watch.svg" alt="">
-                     </div>
-                     <div class="info-story__number">
-                        <p>542</p>
-                     </div>
-                  </div>
-                  <div class="cart-story__info info-story">
-                     <div class="info-story__icon">
-                        <img src="./icons/stories_comments.svg" alt="">
-                     </div>
-                     <div class="info-story__number">
-                        <p>17</p>
-                     </div>
-                  </div>
-               </div>
-            </div>
-            <div class="stories__item cart-story">
-               <div class="cart-story__photo">
-                  <img src="./img/story_1.png" alt="photo">
-                  <div class="cart-story__date">
-                     <h5>15</h5>
-                     <h6>jan</h6>
-                  </div>
-               </div>
-               <div class="cart-story__title">
-                  <h4>Lorem ipsum dolor sit amet</h4>
-               </div>
-               <div class="cart-story__descr">
-                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis proin varius vitae leo eget tincidunt duis amet. Et amet dis vel imperdiet volutpat mauris est leo cursus.</p>
-               </div>
-               <div class="cart-story__footer">
-                  <div class="cart-story__info info-story">
-                     <div class="info-story__icon">
-                        <img src="./icons/stories_watch.svg" alt="">
-                     </div>
-                     <div class="info-story__number">
-                        <p>542</p>
-                     </div>
-                  </div>
-                  <div class="cart-story__info info-story">
-                     <div class="info-story__icon">
-                        <img src="./icons/stories_comments.svg" alt="">
-                     </div>
-                     <div class="info-story__number">
-                        <p>17</p>
-                     </div>
-                  </div>
-               </div>
-            </div>
-         </div>
-      </div>
-   </section>
-   <section class="map">
-      <div class="container">
-         <div class="subtitle">
-            <img src="./icons/map.svg" alt="">
-         </div>
-         <div class="title title_red">
-            <h2 class="title-text ">Latest blog</h2>
-         </div>
-         <hr class="section-hr">
-      </div>
-      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2006.7535116565548!2d27.506684815572346!3d53.92516958010436!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46dbc56c6ea920cb%3A0x8c0a1b9140de5cd8!2zSVQt0YjQutC-0LvQsCBUZWFjaE1lU2tpbGxzIOKAoiDQmtGD0YDRgdGLINC_0YDQvtCz0YDQsNC80LzQuNGA0L7QstCw0L3QuNGP!5e1!3m2!1sen!2sby!4v1679248917395!5m2!1sen!2sby" width="100%" height="230" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-   </section>
-   <footer class="footer">
-      <div class="container">
-         <div class="footer__wrapper">
-            <div class="footer__main">
-               <div class="footer__logo">
-                  <img src="./img/footer_logo.svg" alt="logo">
-               </div>
-               <div class="footer__text">
-                  <h5>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis proin varius vitae leo eget tincidunt duis amet. Et amet dis vel imperdiet volutpat mauris est leo cursus.</h5>
-               </div>
-               <div class="footer__follow">
-                  <h4>15k<span>followers</span></h4>
-               </div>
-               <div class="footer__socials">
-                  <div class="footer__socials-text">
-                     <h5>Follow Us</h5>
-                  </div>
-                  <nav class="footer__socials-menu">
-                     <ul class="footer__socials-list">
-                        <li class="footer__socials-link">
-                           <a href="#">
-                              <img src="./icons/footer_fbsvg.svg" alt="">
-                           </a>
-                        </li>
-                        <li class="footer__socials-link">
-                           <a href="#">
-                              <img src="./icons/footer_tw.svg" alt="">
-                           </a>
-                        </li>
-                        <li class="footer__socials-link">
-                           <a href="#">
-                              <img src="./icons/footer_inst.svg" alt="">
-                           </a>
-                        </li>
-                        <li class="footer__socials-link">
-                           <a href="#">
-                              <img src="./icons/footer_pinterest.svg" alt="">
-                           </a>
-                        </li>
-                        <li class="footer__socials-link">
-                           <a href="#">
-                              <img src="./icons/footer_link.svg" alt="">
-                           </a>
-                        </li>
-                        <li class="footer__socials-link">
-                           <a href="#">
-                              <img src="./icons/footer_yt.svg" alt="">
-                           </a>
-                        </li>
-                        <li class="footer__socials-link">
-                           <a href="#">
-                              <img src="./icons/footer_dribble.svg" alt="">
-                           </a>
-                        </li>
-                        <li class="footer__socials-link">
-                           <a href="#">
-                              <img src="./icons/footer_tt.svg" alt="">
-                           </a>
-                        </li>
-                     </ul>
-                  </nav>
-               </div>
-               <form action="" class="footer__form">
-                  <input class="footer__input" type="email" placeholder="Your Email" required>
-                  <button class="footer__button">subscribe</button>
-               </form>
-            </div>
-            <div class="footer__blogs">
-               <div class="footer__name">
-                  <h3>BLOGS</h3>
-               </div>
-               <div class="footer__blog blog">
-                  <div class="blog__photo">
-                     <img src="./img/blog_1.png" alt="photo">
-                  </div>
-                  <div class="blog__info">
-                     <div class="blog__text">
-                        <h5>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h5>
-                     </div>
-                     <div class="blog__date">
-                        <p>jan.9.22.15</p>
-                     </div>
-                  </div>
-               </div>
-               <div class="footer__blog blog">
-                  <div class="blog__photo">
-                     <img src="./img/blog_2.png" alt="photo">
-                  </div>
-                  <div class="blog__info">
-                     <div class="blog__text">
-                        <h5>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h5>
-                     </div>
-                     <div class="blog__date">
-                        <p>jan.9.22.15</p>
-                     </div>
-                  </div>
-               </div>
-               <div class="footer__blog blog">
-                  <div class="blog__photo">
-                     <img src="./img/blog_3.png" alt="photo">
-                  </div>
-                  <div class="blog__info">
-                     <div class="blog__text">
-                        <h5>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h5>
-                     </div>
-                     <div class="blog__date">
-                        <p>jan.9.22.15</p>
-                     </div>
-                  </div>
-               </div>
-            </div>
-            <div class="footer__instagram inst-footer">
-               <div class="footer__name">
-                  <h3>instagram</h3>
-               </div>
-               <div class="footer__galery">
-                  <div class="inst-footer__row">
-                     <img class="inst-footer__img" src="./img/f_inst_1.png" alt="instagram">
-                     <img class="inst-footer__img" src="./img/f_inst_2.png" alt="instagram">
-                     <img class="inst-footer__img" src="./img/f_inst_3.png" alt="instagram">
-                  </div>
-                  <div class="inst-footer__row">
-                     <img class="inst-footer__img" src="./img/f_inst_4.png" alt="instagram">
-                     <img class="inst-footer__img" src="./img/f_inst_5.png" alt="instagram">
-                     <img class="inst-footer__img" src="./img/f_inst_6.png" alt="instagram">
-                  </div>
-                  <div class="inst-footer__row">
-                     <img class="inst-footer__img" src="./img/f_inst_7.png" alt="instagram">
-                     <img class="inst-footer__img" src="./img/f_inst_8.png" alt="instagram">
-                     <img class="inst-footer__img" src="./img/f_inst_9.png" alt="instagram">
-                  </div>
-               </div>
-               <div class="inst-footer__more">
-                  <a class="inst-footer__link" href="instagram.com">see all photos</a>
-               </div>
-            </div>
-         </div>
-      </div>
-   </footer>
-   <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
-   <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-   <script src="./js/slick.min.js"></script>
-   <script src="./js/script.js"></script>
-</body>
+          </div>
+        </div>
+      </header>
+      <main class="main">
+        <div class="container">
+          <div>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum
+            veniam illo aspernatur. Accusantium repellendus unde beatae, quod,
+            odit amet ipsum, debitis numquam illum sed non inventore iusto.
+            Molestias, culpa nulla dolorem impedit voluptatem odio natus maxime,
+            voluptate minus numquam similique debitis officia dicta minima et
+            dolor iusto, error corrupti officiis praesentium odit mollitia! Unde
+            porro veritatis earum corrupti quos maiores facere? Vero nobis id
+            aut deleniti impedit quae blanditiis quos eos debitis dolor. Qui ad
+            officiis minus impedit hic dignissimos, asperiores quo fugiat
+            eligendi esse nihil. Aperiam hic dicta iste nostrum, neque libero
+            maxime, architecto nesciunt reprehenderit consequatur vitae numquam,
+            repellendus non recusandae et quae sint similique? Eligendi non
+            tempore dignissimos quidem minus in consequatur eos dolorem sequi
+            voluptatibus reprehenderit ad ipsam maiores obcaecati, quod cumque
+            porro harum esse labore aspernatur. Iure facilis, magnam repellendus
+            suscipit placeat, accusantium quas voluptatibus vitae veritatis
+            aliquam laborum tenetur atque. Perspiciatis alias sunt ipsam magnam
+            incidunt necessitatibus illo? Nam voluptatibus assumenda, illum
+            possimus corporis minima, eos beatae ratione fugiat dicta itaque
+            maxime quidem quasi officiis obcaecati nisi id provident. Quas
+            minima qui, fuga expedita ea ipsa laboriosam molestiae unde nobis ut
+            eligendi illum modi voluptas cum, dicta repellendus reprehenderit
+            alias? Libero, facilis! Dolor dolorum, soluta, culpa doloremque
+            commodi autem omnis ipsa cumque assumenda nulla obcaecati. Labore
+            optio aliquid non quis ut earum commodi quisquam unde. Sunt eligendi
+            atque quidem asperiores facilis labore, magni numquam vero qui esse
+            explicabo! Quos placeat necessitatibus perspiciatis. Dolor, cumque!
+            Laudantium repudiandae, sunt error modi harum delectus cum dolor
+            aliquam facilis natus vitae unde ipsam corporis inventore ad omnis
+            repellendus aut exercitationem iusto maxime dolores. Veritatis sit
+            nihil nostrum nam perferendis qui iure magnam ducimus deleniti nulla
+            rerum sunt asperiores sint commodi quisquam consectetur odio
+            incidunt quia, quasi expedita veniam maxime libero, at repudiandae?
+            Quae dolorum saepe adipisci, praesentium quibusdam minima nisi unde
+            consequuntur suscipit quas necessitatibus corrupti numquam alias aut
+            vel fuga ipsam obcaecati incidunt, repellat porro dolores.
+            Temporibus suscipit ducimus dicta totam repudiandae atque ullam eum,
+            non saepe animi. Perferendis laborum molestiae saepe consectetur
+            recusandae voluptates. Culpa accusamus voluptas perspiciatis
+            impedit, cupiditate laborum distinctio accusantium, totam tempore
+            molestiae illo! Debitis dolorum ipsum adipisci quam reprehenderit,
+            aut quod natus porro minima molestias inventore ducimus, sapiente
+            repellendus sunt minus iure magnam quas, eaque corrupti! Ut iusto
+            fugiat laborum enim quo corrupti. Unde aliquid alias fuga
+            voluptatibus, accusamus impedit assumenda ipsum! Quos aliquam
+            praesentium saepe. Nobis iusto, voluptatem debitis quasi quo, fugit
+            doloremque numquam corporis deleniti assumenda magnam sint a id ab
+            blanditiis, aperiam aut accusantium at iure! Laudantium ea porro
+            impedit? Soluta natus nam praesentium totam molestiae odit amet
+            doloremque obcaecati beatae. Eum impedit dicta perspiciatis eius, id
+            iusto nihil ab. Accusamus veritatis facere a dignissimos quidem
+            minus assumenda accusantium voluptatem commodi impedit, nam amet
+            magnam placeat dolorem incidunt alias totam libero harum, nostrum
+            suscipit eos animi itaque cumque. Recusandae tempore soluta sapiente
+            nam quam molestiae odit eaque impedit, alias optio sint praesentium
+            corporis excepturi laborum? Explicabo earum reiciendis omnis
+            nesciunt sequi quaerat. Voluptates debitis laboriosam reiciendis
+            iure voluptatibus, nobis nam repudiandae maxime minus repellendus
+            ducimus recusandae doloribus assumenda quia nesciunt! Beatae
+            explicabo quia adipisci eius fuga tempora sequi, eum error quasi
+            mollitia voluptatibus perspiciatis doloribus. Aliquam aut obcaecati
+            voluptatum voluptatibus. Repellat distinctio laborum ducimus quam
+            non libero minus alias eum laboriosam. Maxime est illo hic cumque
+            sint adipisci nihil autem ipsa odit incidunt! Eum molestiae nesciunt
+            fuga quod quos praesentium eaque provident. Quas eaque ipsam eveniet
+            iure nulla mollitia enim dignissimos, unde minus nihil modi
+            recusandae amet nobis eius architecto illo possimus consectetur
+            aliquid! Quis in, odio consequatur optio a illum necessitatibus,
+            voluptatum autem expedita at facere maxime cumque repellat doloribus
+            eos doloremque rem quas! Architecto tempora ad libero neque sit
+            deleniti ratione odit, soluta aliquid assumenda in et! Repudiandae
+            fuga sapiente non suscipit maxime repellendus blanditiis facere
+            dolore modi voluptatem veritatis ut aut magnam corporis ipsam, amet
+            nam minima ullam ipsum. Deleniti sit incidunt nisi aperiam maxime,
+            soluta cum! Expedita veniam beatae magnam rem ea ab cum debitis ad
+            perspiciatis obcaecati qui nulla blanditiis aspernatur inventore
+            totam repellendus doloribus iure numquam aperiam sit dolore
+            recusandae, repellat rerum veritatis. Aut tenetur, aperiam itaque at
+            sed deserunt dignissimos magnam nostrum esse a nulla asperiores
+            necessitatibus veniam molestiae voluptatum! Maxime necessitatibus
+            optio itaque, nulla voluptatibus dolores nisi eos, neque accusamus
+            omnis et accusantium officia velit autem laboriosam officiis ipsam,
+            quidem sed. Libero quisquam ipsum provident asperiores numquam
+            itaque soluta nostrum sequi nemo, accusantium dolorem dolore. Unde
+            excepturi error doloribus enim perferendis fugiat. Minima laborum
+            non nam molestiae officia suscipit fugit placeat, commodi accusamus
+            vitae totam eos officiis eum ullam, vero explicabo reprehenderit
+            dignissimos molestias. Accusantium mollitia quo, porro praesentium
+            quidem temporibus doloremque sit exercitationem sint. Dignissimos
+            reiciendis, voluptates iusto, quaerat commodi fuga facere explicabo
+            dolorum consequuntur neque vel omnis ducimus natus autem labore
+            eaque temporibus eos cupiditate dolores sapiente? Eaque est debitis
+            minus laboriosam dicta amet! Qui quo ratione sed, iste molestias id
+            quia impedit sunt aperiam maxime optio debitis, sapiente iure
+            laboriosam amet culpa molestiae libero ipsam suscipit reiciendis,
+            voluptas distinctio modi. Culpa doloribus commodi voluptates id
+            ipsum officiis nemo iure praesentium quidem alias nam veritatis,
+            cupiditate delectus omnis quia, aut ducimus minima quis, ipsam
+            voluptatibus repudiandae. Soluta nihil sint libero non debitis
+            natus, ratione commodi fuga consequuntur, inventore reiciendis
+            veniam facilis deleniti corporis, maxime impedit magnam molestiae
+            nulla omnis? Cumque laudantium aliquam impedit incidunt nemo
+            doloribus recusandae consectetur eaque est ex quibusdam, fuga maxime
+            temporibus dicta illo numquam nobis voluptate rem. Laboriosam optio
+            omnis et itaque officia ducimus, esse nam assumenda eos nostrum
+            alias illo. Necessitatibus consequatur eos sunt optio deleniti
+            temporibus deserunt sequi nihil est vitae vero asperiores soluta non
+            dolorem aspernatur ipsum culpa voluptate voluptatibus, ab natus esse
+            illo sed, a facilis? Possimus laboriosam aut deleniti alias, illum
+            molestiae ipsum commodi sunt at. Recusandae et animi vero eveniet
+            iusto aperiam exercitationem dolores labore optio qui! Nisi totam
+            repellat optio, assumenda doloremque architecto nihil velit
+            reiciendis eum consequatur, exercitationem voluptatibus in
+            consequuntur eius iusto temporibus, similique nemo veniam quidem
+            impedit quia voluptatum illo. Dignissimos, tempore sapiente et animi
+            obcaecati in dolorum quibusdam vel voluptatem! Porro quasi ducimus
+            facilis autem! Quidem quaerat error assumenda eligendi autem ad eius
+            numquam eveniet repellendus voluptatem qui ullam, ducimus laborum,
+            impedit neque recusandae possimus quae sequi suscipit, sapiente
+            architecto. Fuga corrupti numquam eveniet obcaecati cumque
+            consectetur fugit sequi cum distinctio, debitis enim neque, nobis
+            qui perferendis! Unde nihil molestiae id nemo quisquam modi non
+            aspernatur quos consequuntur ipsa ab at, sed voluptas expedita iste
+            dolorum tempora sapiente nobis commodi vitae laborum tenetur! Optio
+            ea eaque labore assumenda quas repudiandae, totam error natus sunt
+            magni temporibus a, molestiae deleniti nihil, sit ut fugiat minus
+            consectetur sed sint nam quasi laboriosam nisi asperiores! Maxime
+            reiciendis similique soluta voluptatum tenetur repellendus quaerat
+            quia ipsum tempore, quibusdam voluptate harum eos recusandae dolor!
+            Beatae ea natus voluptatibus doloremque. Fugit itaque deserunt ex at
+            esse magni incidunt libero amet! Vitae eaque quisquam enim tempora!
+            Laborum possimus labore expedita inventore sit odit officia tempore
+            at autem! Earum obcaecati perferendis ea corporis ullam esse, culpa
+            fuga sequi distinctio cupiditate placeat saepe ab minima, unde
+            expedita veniam mollitia dolorem, dolor repellat. Unde facilis
+            exercitationem dignissimos dolore reprehenderit laudantium
+            repudiandae aspernatur totam sunt maxime illo blanditiis debitis
+            amet consequuntur atque pariatur ducimus nisi odio, incidunt
+            molestiae animi autem. Recusandae nostrum fugiat maxime sequi quo
+            doloribus ipsa doloremque repudiandae, harum vel aperiam placeat
+            corrupti minima rerum voluptate autem eveniet voluptatibus id
+            aliquam dolore, perferendis natus officiis! Velit, voluptatem
+            temporibus repellendus iste aspernatur porro soluta quo saepe,
+            magnam voluptatibus minima mollitia quisquam excepturi eum
+            voluptatum ratione. Aut labore temporibus, odio, delectus modi dicta
+            alias atque, libero in ex similique ad provident earum dignissimos
+            ipsa necessitatibus qui quod illo. Esse officiis dolore voluptate
+            debitis assumenda necessitatibus officia impedit, enim expedita
+            quibusdam praesentium! Dignissimos eaque, dolore expedita
+            repudiandae fuga eius illo non laborum atque quam nihil? Nemo
+            aspernatur animi magni repudiandae voluptate molestias. Veniam
+            excepturi animi molestiae eos ab. Ducimus ut deserunt iure omnis
+            distinctio saepe hic nam alias cumque voluptatem? Quis deserunt modi
+            porro vitae incidunt, harum dolore sapiente a ipsam velit eius,
+            quaerat quidem molestias quam, veniam ipsa dolorum esse
+            exercitationem ipsum unde. Assumenda odio beatae itaque ab dicta
+            cupiditate nemo doloremque amet quasi sequi perferendis, aspernatur
+            dolorum aliquam soluta dolor nostrum nisi dolore molestias,
+            voluptatem a? Rem atque a accusantium. Eveniet nobis adipisci
+            voluptates quos vero? Odit ratione veritatis saepe non voluptatum,
+            nostrum consequatur praesentium minus incidunt quibusdam officiis
+            maiores illum magni vero repellat fugit deleniti debitis, atque
+            beatae necessitatibus. Quaerat, fugiat maiores doloribus nam commodi
+            dolorem quod, minus quae molestias, neque suscipit odio. Veritatis
+            ex vel cum ad consequatur! Necessitatibus exercitationem fuga amet
+            repudiandae molestias ratione provident et suscipit quis officia.
+            In, qui facere, quibusdam reprehenderit quia voluptates provident
+            perferendis sit esse sed aliquam unde repellendus odio soluta fugit
+            ipsam dolor accusamus? Ipsam sapiente error earum quae laborum neque
+            molestiae obcaecati accusantium. Unde sapiente et ab maiores
+            similique dolores possimus voluptatibus mollitia, vero quibusdam
+            aspernatur iusto, accusantium laboriosam voluptatum enim at magnam
+            vitae nobis corporis tempora voluptas labore? Provident suscipit
+            explicabo reiciendis nihil reprehenderit aspernatur molestias quae,
+            ad itaque assumenda necessitatibus. Illo fugiat a nam, sequi facere
+            minus eos similique cupiditate temporibus vitae voluptatem dolorum
+            culpa! Quia voluptates minus dolorum esse unde id ratione
+            perferendis maxime quidem, libero, amet totam, quaerat aspernatur
+            suscipit accusamus temporibus consequatur numquam obcaecati? Modi
+            fuga quisquam eius facere, vitae cumque, aut animi reiciendis nobis
+            reprehenderit tenetur nemo alias autem sunt, excepturi maiores. Sint
+            maiores nisi rerum ipsa, enim illum, velit aut esse minus iure cum
+            nulla dolorem reprehenderit nesciunt, ullam rem ad quo. Voluptatum,
+            architecto, vel nulla velit autem voluptatibus earum eius impedit
+            ratione voluptas ea ducimus cum est porro quis, perspiciatis
+            mollitia. Tenetur, saepe. Adipisci, culpa. Iure error, amet unde in
+            provident aperiam nihil nulla quam pariatur, rem libero deserunt
+            consequatur voluptates cumque incidunt? Pariatur exercitationem,
+            eaque a molestiae voluptatum delectus optio voluptatem placeat
+            corporis saepe harum voluptates eveniet animi voluptatibus omnis.
+            Possimus corporis a dolorem quasi sapiente enim libero pariatur,
+            provident harum ad ullam explicabo iste illum distinctio maxime
+            nisi, atque aut tempore labore sint quibusdam laudantium
+            exercitationem ab? Quas maiores asperiores quaerat tenetur ullam
+            perferendis maxime rerum praesentium corrupti sed dolor mollitia,
+            quo officia deserunt sequi voluptates explicabo accusamus pariatur
+            est impedit repellat. Praesentium, id. A nam ullam obcaecati eaque!
+            Itaque architecto blanditiis porro eveniet provident fuga iste
+            corrupti impedit ad sint debitis vitae consectetur expedita facilis
+            voluptates mollitia est ipsam, unde quidem accusamus explicabo
+            quibusdam quasi quisquam. Necessitatibus, molestiae, ipsam
+            praesentium dolores nemo ut consequatur eius dolorem nam iure saepe
+            reprehenderit explicabo ad, iusto voluptate placeat corporis ex
+            corrupti dolore. Non provident ab autem blanditiis incidunt numquam,
+            in pariatur quis distinctio, voluptates possimus voluptatum qui nisi
+            expedita mollitia laboriosam fugit saepe, harum culpa impedit ullam
+            laudantium quo hic. Voluptatibus praesentium quasi omnis ratione
+            sint laboriosam repellat accusantium, nisi facere, exercitationem
+            quas ea laudantium. Aut esse tempora incidunt nulla nisi quasi,
+            repellendus repellat, fugit rerum facere omnis impedit. Dolores
+            omnis praesentium laboriosam veniam quisquam quod voluptatibus
+            velit. Repellendus ullam veritatis deserunt, obcaecati sequi autem
+            totam iusto amet praesentium delectus architecto perspiciatis
+            suscipit tempora veniam, officia aliquid hic animi nobis nemo
+            ducimus laudantium! Quam voluptatem inventore deleniti quia modi
+            cumque magni minus vel alias aliquam, facere minima repellendus
+            soluta adipisci esse quidem corporis sed aliquid nostrum praesentium
+            sunt nam officiis officia? Aut rem debitis vel voluptatibus
+            laudantium ipsum porro animi nihil velit, aliquid, soluta, iusto ex
+            amet dolore officia est impedit? Deleniti deserunt fuga totam in
+            labore magni nemo ea. Ut nisi ipsa numquam ducimus sit esse odio,
+            nam dolorem ratione pariatur excepturi possimus unde laborum,
+            dignissimos commodi iusto. Quos culpa debitis facilis sapiente
+            aperiam. Unde obcaecati iusto voluptate dolores nihil cupiditate,
+            consequatur at illo, recusandae doloremque iste consectetur, autem
+            saepe voluptatem! Amet ab ut possimus, nihil soluta quis repudiandae
+            delectus veritatis sequi ipsa eaque, laborum eveniet mollitia
+            perferendis aliquid vero eligendi modi voluptatum. Error velit,
+            omnis optio atque illo veniam fuga, itaque minus numquam cumque
+            sequi in animi similique sed, labore voluptate accusamus natus
+            recusandae. Beatae delectus, accusantium natus dolorem quos cumque
+            aperiam ex pariatur.
+          </div>
+        </div>
+      </main>
+      <footer class="footer"></footer>
+    </div>
+    <script src="./js/script.js"></script>
+  </body>
 </html>
+
+<!-- <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+              </div> -->
